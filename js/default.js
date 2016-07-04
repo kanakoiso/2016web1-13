@@ -19,7 +19,7 @@ document.getElementById('countdown').textContent =
   counter[0] + '秒' +
 refresh();//タイマーを起動
 
-var refresh = functiom(){
+var refresh = function(){
  setTimeout(update,1000);
 }
 
