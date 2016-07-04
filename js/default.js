@@ -22,7 +22,6 @@ refresh();//タイマーを起動
 var refresh = function(){
  setTimeout(update,1000);
 }
-update();
 
 function getFilename(){
  return window.location.href.split('/').pop();
