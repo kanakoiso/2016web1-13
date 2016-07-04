@@ -18,10 +18,13 @@ document.getElementById('countdown').textContent =
   counter[1] + '分' +
   counter[0] + '秒' +
 refresh();//タイマーを起動
-}
 
 var refresh = functiom(){
  setTimeout(update,1000);
+}
+
+document.getElementById('frpm').select.onchange = function(){
+ location.href = document.getElementById('from').select.value;
 }
 
 update();
