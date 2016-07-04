@@ -22,6 +22,7 @@ refresh();//タイマーを起動
 var refresh = function(){
  setTimeout(update,1000);
 }
+update();
 
 function getFilename(){
  return window.location.href.split('/').pop();
@@ -39,5 +40,3 @@ opt.selected = true;
 document.getElementById('frpm').select.onchange = function(){
  location.href = document.getElementById('from').select.value;
 }
-
-update();
